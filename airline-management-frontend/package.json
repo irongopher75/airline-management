@@ -3,10 +3,21 @@
     "lockfileVersion": 3,
     "requires": true,
     "scripts": {
-      "start": "live-server ."
+        "start": "live-server ."
     },
     "devDependencies": {
-      "live-server": "^1.2.1"
+        "live-server": "^1.2.0"
+    },
+    "version": "1.0.0",
+    "main": "script.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "postcss": "^8.5.1",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-scripts": "^5.0.1"
     }
-  }
-  
+}
