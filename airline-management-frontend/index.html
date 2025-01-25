@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airline Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="home">
+    <h1>Welcome to Airline Management</h1>
+    <button id="adminBtn">Admin Dashboard</button>
+    <button id="passengerBtn">Passenger Dashboard</button>
+  </div>
+
+  <div id="adminDashboard" class="hidden">
+    <h2>Admin Dashboard</h2>
+    <button class="backBtn">Back to Home</button>
+    <button id="addFlightBtn">Add Flight</button>
+    <button id="viewFlightsBtn">View Flights</button>
+    <div id="adminContent"></div>
+  </div>
+
+  <div id="passengerDashboard" class="hidden">
+    <h2>Passenger Dashboard</h2>
+    <button class="backBtn">Back to Home</button>
+    <button id="searchFlightsBtn">Search Flights</button>
+    <button id="viewReservationsBtn">View Reservations</button>
+    <div id="passengerContent"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

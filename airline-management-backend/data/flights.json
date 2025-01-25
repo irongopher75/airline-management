@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1737776387080",
+    "company": "123",
+    "flightNumber": "123",
+    "source": "123",
+    "destination": "123",
+    "totalSeats": 123,
+    "availableSeats": 123,
+    "passengers": []
+  }
+]
