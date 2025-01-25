@@ -1,0 +1,12 @@
+{
+    "name": "airline-management-frontend",
+    "lockfileVersion": 3,
+    "requires": true,
+    "scripts": {
+      "start": "live-server ."
+    },
+    "devDependencies": {
+      "live-server": "^1.2.1"
+    }
+  }
+  
